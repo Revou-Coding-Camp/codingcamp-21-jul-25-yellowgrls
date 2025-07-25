@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1b5a89;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.top-row,
+.bottom-row {
+    display: flex;
+    gap: 10px;
+}
+
+.top-row input[type="text"],
+.top-row input[type="date"] {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.top-row input[type="text"] {
+    flex: 2;
+}
+
+.top-row button {
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom-row button {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#filterBtn {
+    background-color: #007bff;
+}
+
+#deleteAllBtn{
+    background-color: #dc3545;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #005792;
+    color: white;
+}
+
+.no-task td {
+  text-align: center;
+  color: #000000; 
+  background-color: #ffff;  
+  font-style: italic;
+  padding: 14px;
+}
